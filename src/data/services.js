@@ -4,6 +4,19 @@ import { PiPersonSimpleTaiChiFill } from 'react-icons/pi';
 
 export const services = [
  
+
+{
+    slug: 'Door-to-Door Yoga Service',
+    icon: FaUserFriends,
+    title: 'Door-to-Door Yoga Service',
+    shortDescription:
+      'Personalized yoga sessions at your doorstep, designed to improve your health, flexibility, and overall well-being',
+    description:
+      'Experience personalized yoga training at your doorstep. I travel to your home and provide one-on-one or group sessions tailored to your fitness goals, schedule, and wellness needs.',
+    keyword: 'Yoga Trainer',
+  }
+  ,
+
   {
     slug: 'personal-yoga-training',
     icon: PiPersonSimpleTaiChiFill,
@@ -24,46 +37,27 @@ export const services = [
       'Join live, instructor-led online yoga classes from anywhere in the world. Small batch sizes ensure personal attention, real-time corrections, and a genuine studio feel, all from your living room.',
     keyword: 'Online Yoga Classes',
   },
-  {
-    slug: 'meditation-sessions',
-    icon: GiMeditation,
-    title: 'Meditation Sessions',
-    shortDescription:
-      'Guided mindfulness and breathwork sessions to calm the mind and sharpen focus.',
-    description:
-      'Our guided meditation sessions blend traditional pranayama with modern mindfulness techniques to help you manage anxiety, improve sleep, and cultivate lasting inner calm.',
-    keyword: 'Meditation Classes',
-  },
-  {
-    slug: 'prenatal-yoga',
-    icon: GiLotus,
-    title: 'Prenatal Yoga',
-    shortDescription:
-      'Gentle, trimester-safe sequences to support a healthy pregnancy and calm mind.',
-    description:
-      'Designed with certified prenatal specialists, these gentle sequences support strength, flexibility, and relaxation through every trimester, while preparing the body and mind for childbirth.',
-    keyword: 'Prenatal Yoga',
-  },
-  {
-    slug: 'senior-citizen-yoga',
-    icon: GiHealthNormal,
-    title: 'Senior Citizen Yoga',
-    shortDescription:
-      'Low-impact, chair-friendly practices that improve mobility, balance, and vitality.',
-    description:
-      'Gentle, low-impact classes built for older adults, focused on improving joint mobility, balance, and circulation — helping you stay active, independent, and confident at any age.',
-    keyword: 'Wellness Coaching',
-  },
-  {
+ {
     slug: 'Pilates ',
     icon: GiBodyBalance,
-    title: 'Pilates ( Mate + Home )',
+    title: 'Pilates | Home Pilates | Mate Pilates',
     shortDescription:
       'Pilates Yoga: Strengthen your core, improve flexibility, and enhance posture .',
     description:
       'Build strength, improve flexibility, and tone your body with expert-guided Pilates sessions—online or at homeBuild core strength, improve flexibility, and tone your body with expert-guided Pilates sessions. Available online or at home for all fitness levels.',
     keyword: 'Pilates focus',
   },
+  {
+    slug: 'Prenatal-yoga & Prenatal Yoga ',
+    icon: GiLotus,
+    title: 'Prenatal Yoga | Postnatal Yoga ',
+    shortDescription:
+      'Gentle, trimester-safe sequences to support a healthy pregnancy and calm mind.',
+    description:
+      'Designed with certified prenatal & postnatal specialists, these gentle sequences support strength, flexibility, and relaxation through every trimester, while preparing the body and mind for childbirth.',
+    keyword: 'Prenatal Yoga',
+  },
+ 
   {
     slug: 'PANCHAKARMA & AYURVEDA',
     icon: GiHealing,
@@ -74,6 +68,16 @@ export const services = [
       'Ayurveda is an ancient Indian system of natural healing that focuses on balancing the body, mind, and spirit through personalized lifestyle, diet, and therapeutic practices',
   }
 ,
+  {
+    slug: 'meditation-sessions',
+    icon: GiMeditation,
+    title: 'Meditation Sessions',
+    shortDescription:
+      'Guided mindfulness and breathwork sessions to calm the mind and sharpen focus.',
+    description:
+      'Our guided meditation sessions blend traditional pranayama with modern mindfulness techniques to help you manage anxiety, improve sleep, and cultivate lasting inner calm.',
+    keyword: 'Meditation Classes',
+  },
  {
     slug: 'corporate-yoga',
     icon: FaBriefcase,

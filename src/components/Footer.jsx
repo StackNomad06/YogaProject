@@ -17,7 +17,7 @@ const SOCIALS = [
   { icon: FaYoutube, href: 'https://www.youtube.com/@divineyogastudio', label: 'YouTube' },
   { icon: FaLinkedinIn, href: 'https://www.linkedin.com/in/divine-heart-soul-yoga', label: 'LinkedIn' },
 ];
-
+    
 export default function Footer() {
   const [email, setEmail] = useState('');
   const [submitted, setSubmitted] = useState(false);
@@ -35,11 +35,14 @@ export default function Footer() {
       <div className="container-px mx-auto grid max-w-7xl grid-cols-1 gap-12 py-16 sm:grid-cols-2 lg:grid-cols-4 lg:py-20">
         <div>
           <Link to="/" className="mb-4 flex items-center gap-2.5">
+<img
+  alt="Divine Heart Soul Yoga"
+  className="h-10 w-10 rounded-full border border-sage/60 object-contain bg-white/80 p-1 shadow-sm"
+  src="/logo.png"
+/>
 
-           <img alt="Divine Heart Soul Yoga" class="h-10 w-10 rounded-full border border-sage/60 object-contain bg-white/80 p-1 shadow-sm" src="/logo.png"></img>
 
-
-            <span className="font-heading text-xl font-bold text-white">Divine Heart & Soul Yoga</span>
+            <span className="font-heading text-xl font-bold text-white">Divine Heart  Soul Yoga</span>
           </Link>
           <p className="text-sm leading-relaxed text-beige/70">
             Transform your mind, body &amp; soul through yoga. Expert-led classes for
@@ -61,7 +64,7 @@ export default function Footer() {
             ))}
           </ul>
         </div>
-
+            
         <div>
           <h3 className="mb-5 font-heading text-lg font-semibold text-white">Quick Links</h3>
           <ul className="space-y-3 text-sm">
@@ -120,7 +123,7 @@ export default function Footer() {
             </p>
           )}
         </div>
-      </div>
+      </div>  
 
       <div className="border-t border-white/10">
         <div className="container-px mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 py-6 text-xs text-beige/60 sm:flex-row">
