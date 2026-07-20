@@ -3,16 +3,7 @@ import { FaLaptopHouse, FaBriefcase, FaUserFriends } from 'react-icons/fa';
 import { PiPersonSimpleTaiChiFill } from 'react-icons/pi';
 
 export const services = [
-  {
-    slug: 'corporate-yoga',
-    icon: FaBriefcase,
-    title: 'Corporate Yoga',
-    shortDescription:
-      'On-site and virtual yoga programs that reduce workplace stress and boost employee productivity.',
-    description:
-      'Bring balance back to your workplace. Our corporate yoga programs are designed for busy professionals, combining desk-friendly stretches, breathwork, and guided meditation to lower stress, prevent burnout, and improve focus across your team.',
-    keyword: 'Corporate Yoga',
-  },
+ 
   {
     slug: 'personal-yoga-training',
     icon: PiPersonSimpleTaiChiFill,
@@ -82,6 +73,16 @@ export const services = [
     description:
       'Ayurveda is an ancient Indian system of natural healing that focuses on balancing the body, mind, and spirit through personalized lifestyle, diet, and therapeutic practices',
   }
-
-
+,
+ {
+    slug: 'corporate-yoga',
+    icon: FaBriefcase,
+    title: 'Corporate Yoga',
+    shortDescription:
+      'On-site and virtual yoga programs that reduce workplace stress and boost employee productivity.',
+    description:
+      'Bring balance back to your workplace. Our corporate yoga programs are designed for busy professionals, combining desk-friendly stretches, breathwork, and guided meditation to lower stress, prevent burnout, and improve focus across your team.',
+    keyword: 'Corporate Yoga',
+  },
+  
 ];

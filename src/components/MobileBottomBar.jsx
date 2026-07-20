@@ -1,5 +1,6 @@
 import { FiPhone, FiEdit3 } from 'react-icons/fi';
 import { FaWhatsapp } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 import './MobileBottomBar.css';
 
 const phoneNumber = '+919084623216';
@@ -17,10 +18,10 @@ export default function MobileBottomBar() {
         <span>Call</span>
       </a>
 
-      <a href="/contact#contact" className="mobile-bottom-bar__action" aria-label="Fill a form">
+      <Link to="/contact#contact" className="mobile-bottom-bar__action" aria-label="Fill a form">
         <FiEdit3 size={22} aria-hidden="true" />
         <span>Fill a Form</span>
-      </a>
+      </Link>
 
       <a
         href={whatsappUrl}
