@@ -8,7 +8,7 @@ export default function Hero() {
       {/* Background image */}
       <div className="absolute inset-0">
         <img
-          src="/public/Yoga1.jpeg"
+          src="/Yoga1.jpeg"
           alt="Yoga practitioner in a calm, sunlit studio holding a meditative pose"
           width={2000}
           height={1333}

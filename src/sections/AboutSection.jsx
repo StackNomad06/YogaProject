@@ -31,7 +31,7 @@ export default function AboutSection() {
         >
           <div className="overflow-hidden rounded-xl3 shadow-soft">
             <LazyImage
-              src="/public/Yoga4.jpeg"
+              src="/Yoga4.jpeg"
               alt="Founder of Divine Yoga Studio guiding a student through a yoga pose"
               width={900}
               height={1080}
