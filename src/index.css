@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-beige text-forest-700 font-body antialiased dark:bg-forest-800 dark:text-beige;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading text-forest-600 dark:text-beige;
+  }
+
+  /* Visible keyboard focus for accessibility (WCAG 2.4.7) */
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  textarea:focus-visible,
+  select:focus-visible,
+  [tabindex]:focus-visible {
+    outline: 2px solid #D4A373;
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  ::selection {
+    background-color: #95D5B2;
+    color: #1B4332;
+  }
+
+  /* Respect reduced motion preference */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  .container-px {
+    @apply px-6 sm:px-8 lg:px-12;
+  }
+
+  .section-py {
+    @apply py-20 lg:py-28;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs sm:text-sm font-semibold uppercase tracking-[0.2em] text-gold-dark dark:text-gold;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-forest px-7 py-3.5 text-sm font-semibold text-white shadow-soft transition-all duration-300 hover:bg-forest-500 hover:shadow-gold focus-visible:outline-gold active:scale-[0.98];
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border-2 border-forest/20 bg-white/70 px-7 py-3.5 text-sm font-semibold text-forest backdrop-blur transition-all duration-300 hover:border-forest hover:bg-white active:scale-[0.98] dark:border-beige/30 dark:bg-white/5 dark:text-beige dark:hover:border-beige/60;
+  }
+
+  .btn-gold {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-gold px-7 py-3.5 text-sm font-semibold text-forest-700 shadow-gold transition-all duration-300 hover:bg-gold-dark hover:text-white active:scale-[0.98];
+  }
+
+  .card-surface {
+    @apply rounded-xl3 border border-forest/5 bg-white shadow-softer dark:border-beige/10 dark:bg-forest-700;
+  }
+}
