@@ -23,7 +23,7 @@ export default function FounderSection() {
           <div className="absolute -inset-4 rounded-xl3 border border-gold/30" />
           <div className="overflow-hidden rounded-xl3 shadow-soft">
             <LazyImage
-              src="/public/Dinesh.jpeg"
+              src="/Dinesh.jpeg"
               alt="Portrait of the founder of Divine Heart Soul Yoga"
               width={700}
               height={860}

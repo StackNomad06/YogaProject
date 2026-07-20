@@ -6,21 +6,21 @@ export const benefits = [
     description:
       'Guided breathwork and mindful movement lower cortisol levels, helping you release tension built up from work and daily life.',
     image:
-      '/public/Yoga3.jpeg',
+      '/Yoga3.jpeg',
   },
   {
     title: 'Improve Flexibility',
     description:
       'Consistent practice gently lengthens muscles and improves joint range of motion, reducing stiffness and everyday aches.',
     image:
-      '/public/Flexibilty.jpeg',
+      '/Flexibilty.jpeg',
   },
   {
     title: 'Better Sleep',
     description:
       'Restorative sequences and evening pranayama calm the nervous system, helping you fall asleep faster and sleep more deeply.',
     image:
-      '/public/sleep.jpeg',
+      '/sleep.jpeg',
   },
   {
     title: 'Weight Management',
@@ -41,6 +41,6 @@ export const benefits = [
     description:
       'Regular practice is linked to reduced anxiety and greater emotional resilience, supporting long-term wellbeing.',
     image:
-      '/public/mental.jpeg',
+      '/mental.jpeg',
   },
 ];
