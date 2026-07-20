@@ -14,8 +14,8 @@ const CERTIFICATIONS = [
 const STATS = [
   { end: 6, label: 'Years of Experience' },
   { end: 70, label: 'Wellness Programs' },
-  { end: 1200, label: 'Happy Students' },
-  { end: 1000, label: 'Sessions Conducted' },
+  { end: 2200, label: 'Happy Students' },
+  { end: 840, label: 'Sessions Conducted' },
 ];
 
 export default function AboutSection() {
