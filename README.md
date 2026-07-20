@@ -75,3 +75,4 @@ src/
    email service provider / CRM or backend endpoint.
 5. Update `public/sitemap.xml` and the canonical domain in `SEO.jsx` / `schema.js` if your final
    domain differs from `divineyogastudio.com`.
+# YogaProject
