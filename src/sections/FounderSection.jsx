@@ -4,8 +4,8 @@ import SectionHeading from '../components/SectionHeading.jsx';
 import LazyImage from '../components/LazyImage.jsx';
 
 const SOCIALS = [
-  { icon: FaInstagram, href: 'https://www.instagram.com/divineyogastudio', label: 'Instagram' },
-  { icon: FaLinkedinIn, href: 'https://www.linkedin.com/company/divineyogastudio', label: 'LinkedIn' },
+  { icon: FaInstagram, href: 'https://www.instagram.com/divine_heartsoulyoga?igsh=MzNkaW1wbzlmZTQ1', label: 'Instagram' },
+  { icon: FaLinkedinIn, href: 'https://www.linkedin.com/in/divine-heart-soul-yoga/', label: 'LinkedIn' },
   { icon: FaYoutube, href: 'https://www.youtube.com/@divineyogastudio', label: 'YouTube' },
 ];
 
