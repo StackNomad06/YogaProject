@@ -40,7 +40,7 @@ export const services = [
  {
     slug: 'Pilates ',
     icon: GiBodyBalance,
-    title: 'Pilates | Home Pilates | Mate Pilates',
+    title: 'Pilates  | Mate Pilates',
     shortDescription:
       'Pilates Yoga: Strengthen your core, improve flexibility, and enhance posture .',
     description:
