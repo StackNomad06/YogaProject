@@ -48,9 +48,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.25 }}
           className="max-w-xl font-body text-lg text-beige/85 sm:text-xl"
-        >
-          Expert yoga programs for individuals, corporates, and wellness seekers — guided by
-          certified trainers with 6+ years of experience.
+        >We offer personalized Yoga & Pilates sessions designed to fit your lifestyle — whether you prefer door-to-door classes at your home/flat or live online sessions from anywhere
         </motion.p>
 
         <motion.div
