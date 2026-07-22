@@ -65,7 +65,7 @@ export default function ContactSection() {
       console.log('Contact form submitted:', data);
 
       await emailjs.send(
-        "service_emzsqek",
+        "service_eqp5lk8",
         "template_kkaky4t",
         {
           from_name: data.name,
