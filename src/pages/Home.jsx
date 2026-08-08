@@ -17,10 +17,10 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="Yoga Classes, Corporate Yoga & Wellness Coaching"
+        title="Yoga Classes, Online Yoga Classes, Pilates, Corporate Yoga, Yoga Trainer, Wellness Coaching, Meditation Classes, Yoga Studio"
         description="Divine Heart Soul Yoga offers expert yoga classes, online yoga classes, corporate yoga, prenatal yoga, and meditation classes led by certified trainers with 6+ years of experience."
         path="/"
-        keywords="Yoga Classes, Online Yoga Classes, Corporate Yoga, Yoga Trainer, Wellness Coaching, Meditation Classes, Yoga Studio"
+        keywords="Yoga Classes, Online Yoga Classes, Pilates, Corporate Yoga, Yoga Trainer, Wellness Coaching, Meditation Classes, Yoga Studio"
         schema={[organizationSchema, faqSchema(faqs)]}
       />
       <Hero />
