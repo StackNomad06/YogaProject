@@ -74,5 +74,5 @@ src/
 4. Wire the newsletter form (`Footer.jsx`) and contact form (`ContactSection.jsx`) up to your
    email service provider / CRM or backend endpoint.
 5. Update `public/sitemap.xml` and the canonical domain in `SEO.jsx` / `schema.js` if your final
-   domain differs from `divineyogastudio.com`.
+   domain differs from `divineheartsoulyooga.com`.
 # YogaProject

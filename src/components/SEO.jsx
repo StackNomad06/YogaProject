@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet-async';
 
-const SITE_NAME = 'Divine Yoga Studio';
-const SITE_URL = 'https://www.divineyogastudio.com';
+const SITE_NAME = 'Divine Heart Soul Yoga';
+const SITE_URL = 'https://www.divineheartsoulyoga.com/';
 const DEFAULT_IMAGE = `${SITE_URL}/og-image.jpg`;
 
 /**

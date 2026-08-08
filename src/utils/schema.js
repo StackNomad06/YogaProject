@@ -21,7 +21,7 @@ export const organizationSchema = {
     addressCountry: 'IN',
   },
   telephone: '+91-9084623216',
-  email: 'hello@divineyogastudio.com',
+  email: 'hello@divineheartyogastudio.com',
   priceRange: '$$',
   openingHoursSpecification: [
     {
@@ -90,7 +90,7 @@ export function serviceSchema(service) {
     description: service.description,
     provider: {
       '@type': 'HealthAndBeautyBusiness',
-      name: 'Divine Yoga Studio',
+      name: 'Divine Heart Soul Yoga',
       url: SITE_URL,
     },
     areaServed: 'IN',
