@@ -17,7 +17,7 @@ const DEFAULT_IMAGE = `${SITE_URL}/og-image.jpg`;
  * @param {string} [props.keywords] - Comma separated keyword list.
  */
 export default function SEO({ title, description, path = '/', image = DEFAULT_IMAGE, schema, keywords }) {
-  const fullTitle = title ? `${title} | ${SITE_NAME}` : `${SITE_NAME} | Yoga Classes, Online Yoga Classes, Pilates, Corporate Yoga, Yoga Trainer, Wellness Coaching, Meditation Classes, Yoga Studio`;
+  const fullTitle = title ? `${title} | ${SITE_NAME}` : `${SITE_NAME} | Home Yoga Classes  & Online Yoga Classes in Gurugram & Delhi NCR`;
   const canonical = `${SITE_URL}${path === '/' ? '' : path}`;
   const schemaList = Array.isArray(schema) ? schema : schema ? [schema] : [];
 
